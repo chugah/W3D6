@@ -1,0 +1,60 @@
+body {
+  background-color: #FFFFFF;
+  font-family: Verdana;
+  font-size: 1em;
+  clear: both; }
+  body h1 {
+    color: #FF0000; }
+  body img {
+    border-radius: 50%;
+    padding: 14px;
+    -webkit-filter: drop-shadow(7px 7px 20px grey); }
+    body img:hover {
+      -webkit-filter: brightness(1.1) contrast(1.5) drop-shadow(7px 7px 20px black) grayscale(0.6) hue-rotate(330deg) invert(0.1) saturate(3.3) sepia(0.2); }
+  body .member {
+    float: left;
+    border-radius: 15px; }
+    body .member:hover:nth-child(odd) {
+      -webkit-transform: rotate(6deg);
+      border: solid 3px;
+      background-color: #8AE6B8; }
+    body .member:hover:nth-child(even) {
+      -webkit-transform: rotate(-6deg);
+      border: solid 3px;
+      background-color: #B8E68A; }
+  body #id {
+    width: 25px; }
+  body #team-members .member div.name {
+    text-align: center; }
+
+/*
+body {
+  h1 {
+    color: $primaryColor;
+  }
+  font-family: Verdana;
+  font-size: 1.5em;
+}
+
+#team-members {
+  clear: both;
+}
+
+#team-members .member {
+  float: left;
+  border: 1px solid gray;
+  margin: 10px;
+  padding: 6px;
+}
+
+#team-members .member img {
+  width: 200px;
+  height: 200px;
+}
+
+#team-members .member div.name {
+  text-align: center;  
+}
+*/
+
+/*# sourceMappingURL=style.css.map */
